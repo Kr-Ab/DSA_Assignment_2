@@ -1,4 +1,5 @@
-increasing 3
-decreasing 3
-maxima 9
-minima 11
+Invalid Input 
+increasing 5
+Only one number found. Cannot distinguish between distributions 
+Invalid Input 
+Only one number found. Cannot distinguish between distributions 

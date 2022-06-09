@@ -58,7 +58,17 @@ if __name__ == '__main__':
 
         with open("inputPS1.txt", 'r') as input:
             for line in input:
-                sample = list(map(int, line.split()))
+                try: 
+                    sample = list(map(int, line.split()))
+                except:
+                    f.write("Invalid Input \n")
+                    continue
+                if len(set(sample))==1:
+                    f.write("Only one number found. Cannot distinguish between distributions \n")
+                    continue
+                if len(sample)==0:
+                    f.write("Invalid Input \n")
+                    continue
                 minmax = MinMax(sample)
 
                 f.write(minmax.getoutput(minmax.getminmax(
