@@ -1,5 +1,9 @@
+decreasing 1
 Invalid Input 
+minima 5
+Invalid Input 
+Only one number found. Cannot distinguish between distributions 
+Only one number found. Cannot distinguish between distributions 
+Invalid Input 
+maxima 9
 increasing 5
-Only one number found. Cannot distinguish between distributions 
-Invalid Input 
-Only one number found. Cannot distinguish between distributions 
